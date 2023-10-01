@@ -7,3 +7,4 @@ Icon Used from Remix Icon - Open source icon library
 Demo - 
 https://github.com/NishantChamate/FANTA/assets/143548213/a7a2b737-f758-47c4-8fcb-30c4922e45ee
 
+.
