@@ -47,6 +47,7 @@ nav a, i{
 .cntr-nav{
     display: flex;
     gap: 3vw;
+    color: white;
 }
 
 nav i{
@@ -240,3 +241,29 @@ nav i{
 .lemon1{
     left: 10%;
 }
+
+.eff {
+    display: inline-block;
+    position: relative;
+    color: white;
+    opacity: 0.8;
+}
+  
+.eff::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 0.125rem;
+    bottom: 0;
+    left: 0;
+    background-color: #1d5981;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+  
+.eff:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
