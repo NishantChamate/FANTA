@@ -3,12 +3,13 @@ var tl = gsap.timeline({scrollTrigger:{
     start: "0% 95%",
     end: "70% 50%",
     scrub: true,
-    markers: true,
+    // markers: true,
 }})
 
 tl.to("#fanta",{
     top: "120%",
     left: "0%",
+    rotate: "360deg",
 }, 'orange')
 tl.to("#orange-cut",{
     top:"160%",
