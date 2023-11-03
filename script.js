@@ -2,7 +2,7 @@ var tl = gsap.timeline({scrollTrigger:{
     trigger: ".two",
     start: "0% 95%",
     end: "70% 50%",
-    scrub: true,
+    scrub: true,   // for reverse scrolling of mouse
     // markers: true,
 }})
 
@@ -13,7 +13,8 @@ tl.to("#fanta",{
 }, 'orange')
 tl.to("#orange-cut",{
     top:"160%",
-    left: "23%"
+    left: "23%",
+    rotate:"220deg",
 }, 'orange')
 tl.to("#orange",{
     width: "15%",
@@ -71,4 +72,5 @@ tl2.to("#fanta",{
     width:"35%",
     top: "210%",
     left: "33%",
+    // rotate:"-360deg",
 }, 'ca')
